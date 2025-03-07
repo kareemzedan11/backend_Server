@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const bcrypt = require("bcrypt"); // ✅ Import bcrypt
+const bcrypt = require("bcryptjs");
+ // ✅ Import bcrypt
 
 const driverSchema = new mongoose.Schema(
   {
