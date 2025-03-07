@@ -5,11 +5,13 @@
 	"directories": {
 		"test": "tests"
 	},
-	"scripts": {
-		"test": "jest",
-		"test:unit": "jest tests/unit",
-		"test:integration": "jest tests/integration"
-	},
+"scripts": {
+  "start": "node index.js",
+  "test": "jest",
+  "test:unit": "jest tests/unit",
+  "test:integration": "jest tests/integration"
+}
+,
 	"jest": {
 		"testEnvironment": "node",
 		"setupFilesAfterEnv": [
